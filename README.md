@@ -14,14 +14,23 @@ http://info.lib.szu.edu.cn/infoliteracy/node/492
 
 ## latex学习资料  ##
 经典文档讲义：
+
 1.[包太雷《LaTeX Notes（第二版）》](https://github.com/huangxg/lnotes)
+
 2.[一份不太简短的LaTeX介绍](https://mirrors.nju.edu.cn/CTAN/info/lshort/chinese/lshort-zh-cn.pdf)
+
 3.[简单粗暴LaTeX](https://pics.latexstudio.net/uploads/20210525/a00919a39b58e6f12fc1f1915bf4f207.pdf)
+
 在线教程：
 [Overleaf帮助文档](https://cn.overleaf.com/learn)
+
+
 教学PPT：
 1.[LaTeX科技排版讲义和相关软件资料（华东师范大学）](https://math.ecnu.edu.cn/~jypan/Latex/index.html)
+
 2.[清华大学LaTeX讲座（每年更新）](https://github.com/tuna/thulib-latex-talk
+
+
 视频讲座：
 1.https://space.bilibili.com/209746320
 2.https://www.bilibili.com/video/BV1sf4y1q7HK/？vd_source=899bec779fee8f8ede7f44b0bd05bcb7
