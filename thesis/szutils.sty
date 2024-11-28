@@ -21,6 +21,11 @@
 
 \usepackage{tabularx}
 
+\usepackage{fontspec} % 引入 fontspec 宏包，以使用系统字体
+\usepackage{setspace} % 引入 setspace 宏包以设置行距
+\usepackage{biblatex} % 引入 biblatex 宏包以处理参考文献
+\addbibresource{ref/szuthesis.bib} 
+
 %生成书签。同时不是使用方框标识，colorlinks使用颜色标识。如果不想使用颜色，可以改为black.
 %书签可有可无。不想用直接删除即可
 %colorlinks默认为false, 即使用方框区别链接。为true时使用颜色进行区别。
@@ -70,10 +75,10 @@ citecolor=black
 }
 
 \renewcommand{\algorithmcfname}{算法}
-\renewcommand{\bibfont}{\zihao{-5}\kaishu}%%参考文献内容改为小五字体
 
 \DeclareGraphicsExtensions{.eps,.ps,.png,.jpg}%对于同名图片的优先顺序调用
 \graphicspath{{graphics/}}%设置图片路径为当前路径下的graphics文件夹
 
+\newfontface\timesfont{Times New Roman}%%设置此字体
 
 \endinput

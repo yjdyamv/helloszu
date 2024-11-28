@@ -1,0 +1,12 @@
+\section*{参考文献} 
+	\renewcommand{\refname}{\textbf{\kaishu\zihao{5}参考文献}} % 重新定义参考文献标题格式为五号楷体加粗
+
+% 设置参考文献格式的段落参数
+\begin{spacing}{1.0} % 开始单倍行距
+% 独立环境，局部设置
+\setlength{\parindent}{0pt} % 段落缩进为0
+\setlength{\parskip}{0.5\baselineskip} % 段落前后距离为0.5行
+\renewcommand{\bibfont}{\kaishu\zihao{-5}} % 参考文献内容设置为小五号楷体
+
+\printbibliography[heading=none] % 打印参考文献，不添加额外标题
+\end{spacing} % 结束单倍行距
