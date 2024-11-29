@@ -8,7 +8,7 @@ http://info.lib.szu.edu.cn/infoliteracy/node/492
 ## 改动 ##
 保留：图片里的深大logo.
 
-修改：的CJK宏包换成了ctex宏包。
+修改：的CJK宏包换成了ctex宏包。增添了apa和国标格式的参考文献供选择。
 
 原文作者的文风很受笔者喜爱，可供学习其严谨的论述和表达和章法结构。若想完整观看原论文，可到[szuthesis](https://github.com/liuchengxu/szuthesis)处
 
