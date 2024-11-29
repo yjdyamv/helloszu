@@ -23,7 +23,10 @@
 
 \usepackage{fontspec} % 引入 fontspec 宏包，以使用系统字体
 \usepackage{setspace} % 引入 setspace 宏包以设置行距
-\usepackage{biblatex} % 引入 biblatex 宏包以处理参考文献
+\usepackage[backend=biber,style=numeric, sorting=none]{biblatex} % 引入 biblatex 宏包以处理参考文献
+
+%\usepackage[backend=biber,style=apa]{biblatex} % 使用 APA 样式
+%\usepackage[backend=biber,style=gb7714-2015]{biblatex}%使用国标版本,可自行选择样式。
 \addbibresource{ref/szuthesis.bib} 
 
 %生成书签。同时不是使用方框标识，colorlinks使用颜色标识。如果不想使用颜色，可以改为black.
